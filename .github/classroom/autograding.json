@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test constructores",
+      "setup": "",
+      "run": "gradle test --tests *TestConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test metodos",
+      "setup": "",
+      "run": "gradle test --tests *TestMetodos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test uso this",
+      "setup": "",
+      "run": "gradle test --tests *TestThis",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
